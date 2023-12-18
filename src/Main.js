@@ -79,7 +79,7 @@ function Main(){
                 <div className="section-container">
                     <div className="section__pic-container">
                     <img
-                        src="./images/Profile-pic.jpg"
+                        src="./images/profilepic2.jpeg"
                         alt="Profile picture"
                         className="about-pic"
                     />
@@ -107,12 +107,13 @@ function Main(){
                     </div>
                     <div className="text-container">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                        reprehenderit et laborum, rem, dolore eum quod voluptate
-                        exercitationem nobis, nihil esse debitis maxime facere minus sint
-                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                        Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                        reiciendis ea magnam? Nulla, impedit fuga!
+                        I am a dedicated individual with a profound passion for developing applications that have a positive impact on people's lives. 
+                        My journey into the world of web development began through self-learning, where I built a foundation. 
+                        Eager to deepen my understanding of writing clean and efficient code, I enrolled in a software engineering bootcamp, enriching my expertise.
+                        With over two+ years of self-learning and bootcamp experience, I've seamlessly integrated my knowledge into my own business, enhancing the customer experience through innovative solutions. 
+                        My ultimate goal is to continually expand my skills in software development, aspiring to contribute to the broader developer community. 
+                        I believe that by sharing knowledge and collaborating, we can collectively create meaningful and transformative applications. 
+                        Let's code a better future together!
                         </p>
                     </div>
                     </div>
@@ -295,7 +296,7 @@ function Main(){
                         </button>
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href = "https://restaurant-reservation-frontend-yk45.onrender.com/dashboard"}
+                            onClick={()=>window.location.href = "https://restaurant-reservation-frontend-yk45.onrender.com"}
                         >
                             Live Demo
                         </button>
