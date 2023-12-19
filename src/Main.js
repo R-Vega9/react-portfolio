@@ -49,7 +49,7 @@ function Main(){
                     <div className="btn-container">
                     <button
                         className="btn btn-color-2"
-                        onclick="window.open('./assets/resume-example.pdf')"
+                        onClick={()=>window.location.href='./images/resume.pdf'}
                     >
                         Download CV
                     </button>
@@ -102,7 +102,7 @@ function Main(){
                             className="icon"
                         />
                         <h3>Education</h3>
-                        <p>Thinkful Engineering Flex Program</p>
+                        <p>Thinkful Engineering Certification</p>
                         </div>
                     </div>
                     <div className="text-container">
@@ -353,7 +353,7 @@ function Main(){
                         alt="LinkedIn icon"
                         className="icon contact-icon"
                     />
-                    <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                    <p><a href="https://www.linkedin.com/in/ramon-c-vega/">LinkedIn</a></p>
                     </div>
                 </div>
                 </section>
