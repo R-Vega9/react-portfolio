@@ -12,7 +12,6 @@ function Main(){
     return (
         <>
             <nav id="desktop-nav">
-                <div className="logo"></div>
                     <div>
                         <ul className="nav-links">
                         <li><a href="#about">About</a></li>
@@ -23,7 +22,6 @@ function Main(){
                     </div>
             </nav>
             <nav id="hamburger-nav">
-                <div className="logo"></div>
                     <div className="hamburger-menu">
                         <div  className={`${toggle ? "hamburger-icon open" : "hamburger-icon"}`} onClick={handleToggle}>
                         <span></span>
@@ -39,13 +37,13 @@ function Main(){
                 </div>
             </nav>
             <section id="profile">
-                <div className="section__pic-container">
+                <div className="section-pic-container">
                     <img style={{borderRadius:"50%"}} src="./images/Profile-pic.jpg" alt="Ramon Vega Profile Picture" />
                 </div>
-                <div className="section__text">
-                    <p className="section__text__p1">Hello, I'm</p>
+                <div className="section-text">
+                    <p className="section-text-p1">Hello, I'm</p>
                     <h1 className="title">Ramon Vega</h1>
-                    <p className="section__text__p2">Full Stack Software Engineer</p>
+                    <p className="section-text-p2">Full Stack Software Engineer</p>
                     <div className="btn-container">
                     <button
                         className="btn btn-color-2"
@@ -74,10 +72,10 @@ function Main(){
                 </div>
                 </section>
                 <section id="about">
-                <p className="section__text__p1">Get To Know More</p>
+                <p className="section-text-p1">Get To Know More</p>
                 <h1 className="title">About Me</h1>
                 <div className="section-container">
-                    <div className="section__pic-container">
+                    <div className="section-pic-container">
                     <img
                         src="./images/profilepic2.jpeg"
                         alt="Profile picture"
@@ -110,7 +108,7 @@ function Main(){
                         I am a dedicated individual with a profound passion for developing applications that have a positive impact on people's lives. 
                         My journey into the world of web development began through self-learning, where I built a foundation. 
                         Eager to deepen my understanding of writing clean and efficient code, I enrolled in a software engineering bootcamp, enriching my expertise.
-                        With over two+ years of self-learning and bootcamp experience, I've seamlessly integrated my knowledge into my own business, enhancing the customer experience through innovative solutions. 
+                        With over three years of self-learning and bootcamp experience, I've seamlessly integrated my knowledge into my own business, enhancing the customer experience through innovative solutions. 
                         My ultimate goal is to continually expand my skills in software development, aspiring to contribute to the broader developer community. 
                         I believe that by sharing knowledge and collaborating, we can collectively create meaningful and transformative applications. 
                         Let's code a better future together!
@@ -126,7 +124,7 @@ function Main(){
                 />
                 </section>
                 <section id="experience">
-                <p className="section__text__p1">Explore My</p>
+                <p className="section-text-p1">Explore My</p>
                 <h1 className="title">Experience</h1>
                 <div className="experience-details-container">
                     <div className="about-containers">
@@ -250,7 +248,7 @@ function Main(){
                 />
                 </section>
                 <section id="projects">
-                <p className="section__text__p1">Browse My Recent</p>
+                <p className="section-text-p1">Browse My Recent</p>
                 <h1 className="title">Projects</h1>
                 <div className="experience-details-container">
                     <div className="about-containers">
@@ -336,7 +334,7 @@ function Main(){
                 />
                 </section>
                 <section id="contact">
-                <p className="section__text__p1">Get in Touch</p>
+                <p className="section-text-p1">Get in Touch</p>
                 <h1 className="title">Contact Me</h1>
                 <div className="contact-info-upper-container">
                     <div className="contact-info-container">
@@ -358,7 +356,7 @@ function Main(){
                 </div>
                 </section>
                 <footer>
-                    <nav>
+                    <nav className="footer-nav">
                         <div className="nav-links-container">
                         <ul className="nav-links">
                             <li><a href="#about">About</a></li>

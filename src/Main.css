@@ -25,7 +25,8 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: end;
+  padding-right: 2rem;
   align-items: center;
   height: 17vh;
 }
@@ -111,6 +112,7 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  background-color: white;
 }
 
 .hamburger-icon.open span:first-child {
@@ -160,27 +162,27 @@ section {
   height: 80vh;
 }
 
-.section__pic-container {
+.section-pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
 }
 
-.section__text {
+.section-text {
   align-self: center;
   text-align: center;
 }
 
-.section__text p {
+.section-text p {
   font-weight: 600;
 }
 
-.section__text__p1 {
+.section-text-p1 {
   text-align: center;
 }
 
-.section__text__p2 {
+.section-text-p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -299,7 +301,7 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
+.section-pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
@@ -418,6 +420,11 @@ footer {
   margin: 0 1rem;
 }
 
+.footer-nav {
+  display: flex;
+  justify-content: center;
+}
+
 footer p {
   text-align: center;
 }
@@ -462,7 +469,7 @@ footer p {
   section {
     margin: 0 5%;
   }
-  .section__pic-container {
+  .section-pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
@@ -511,18 +518,15 @@ footer p {
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container {
+  .section-pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
-  .section__text__p2 {
+  .section-text-p2 {
     font-size: 1.25rem;
   }
   .title {
     font-size: 2rem;
-  }
-  .text-container {
-    text-align: justify;
   }
 }
