@@ -303,24 +303,18 @@ function Main(){
                     <div className="details-container color-container">
                         <div className="article-container">
                         <img
-                            src="./images/welovemovies.png"
-                            alt="We Love Movies"
+                            src="./images/workout-tracker.png"
+                            alt="Powerhouse Fitness Workout Tracker"
                             className="project-img"
                         />
                         </div>
-                        <h2 className="experience-sub-title project-title">We Love Movies</h2>
+                        <h2 className="experience-sub-title project-title">Powerhouse Fitness Workout Tracker</h2>
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href = "https://github.com/R-Vega9/weLoveMoviesBackend"}
+                            onClick={()=>window.location.href = "https://github.com/R-Vega9/workout-tracker-frontend"}
                         >
                             Github
-                        </button>
-                        <button
-                            className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href = "https://welovemoviesfrontend-0qgn.onrender.com/"}
-                        >
-                            Live Demo
                         </button>
                         </div>
                     </div>
