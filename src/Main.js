@@ -326,7 +326,7 @@ function Main(){
                     className="icon arrow"
                     onClick={()=>window.location.href="#contact"}
                 />
-                </section>
+                </section> 
                 <section id="contact">
                 <p className="section-text-p1">Get in Touch</p>
                 <h1 className="title">Contact Me</h1>
