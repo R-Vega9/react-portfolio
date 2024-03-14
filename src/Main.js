@@ -105,13 +105,7 @@ function Main(){
                     </div>
                     <div className="text-container">
                         <p>
-                        I am a dedicated individual with a profound passion for developing applications that have a positive impact on people's lives. 
-                        My journey into the world of web development began through self-learning, where I built a foundation. 
-                        Eager to deepen my understanding of writing clean and efficient code, I enrolled in a software engineering bootcamp, enriching my expertise.
-                        With over three years of self-learning and bootcamp experience, I've seamlessly integrated my knowledge into my own business, enhancing the customer experience through innovative solutions. 
-                        My ultimate goal is to continually expand my skills in software development, aspiring to contribute to the broader developer community. 
-                        I believe that by sharing knowledge and collaborating, we can collectively create meaningful and transformative applications. 
-                        Let's code a better future together!
+                        I am a dedicated individual with a profound passion for developing applications that have a positive impact on people's lives. My journey into the world of web development began through self-learning, where I built a foundation. Eager to deepen my understanding of writing clean and efficient code, I enrolled in a software engineering bootcamp, enriching my expertise. With over three years of self-learning and bootcamp experience, I've applied my skills to freelance for local businesses, enhancing their digital presence and customer experience through innovative solutions. My ultimate goal is to continually expand my skills in software development, aspiring to contribute to the broader developer community. I believe that by sharing knowledge and collaborating, we can collectively create meaningful and transformative applications. Let's code a better future together!
                         </p>
                     </div>
                     </div>
