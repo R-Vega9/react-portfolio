@@ -77,7 +77,7 @@ function Main(){
                 <div className="section-container">
                     <div className="section-pic-container">
                     <img
-                        src="./images/profilepic2.jpeg"
+                        src="./images/profilepic2.jpg"
                         alt="Profile picture"
                         className="about-pic"
                     />
