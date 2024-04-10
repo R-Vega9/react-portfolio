@@ -38,7 +38,7 @@ function Main(){
             </nav>
             <section id="profile">
                 <div className="section-pic-container">
-                    <img style={{borderRadius:"50%"}} src="./images/Profile-pic.jpg" alt="Ramon Vega Profile Picture" />
+                    <img style={{borderRadius:"50%"}} src="./images/profile-pic2.jpg" alt="Ramon Vega Profile Picture" />
                 </div>
                 <div className="section-text">
                     <p className="section-text-p1">Hello, I'm</p>
@@ -77,7 +77,7 @@ function Main(){
                 <div className="section-container">
                     <div className="section-pic-container">
                     <img
-                        src="./images/profilepic2.jpg"
+                        src="./images/Profile-pic.jpg"
                         alt="Profile picture"
                         className="about-pic"
                     />
