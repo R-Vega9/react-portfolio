@@ -16,7 +16,7 @@ function Main(){
                         <ul className="nav-links">
                         <li><a href="#about">About</a></li>
                         <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#work">Work</a></li>
                         <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -31,7 +31,7 @@ function Main(){
                     <div className={`${toggle ? "menu-links open" : "menu-links"}`}>
                         <li><a href="#about" onClick={handleToggle}>About</a></li>
                         <li><a href="#experience" onClick={handleToggle}>Experience</a></li>
-                        <li><a href="#projects" onClick={handleToggle}>Projects</a></li>
+                        <li><a href="#work" onClick={handleToggle}>Work</a></li>
                         <li><a href="#contact" onClick={handleToggle}>Contact</a></li>
                     </div>
                 </div>
@@ -238,12 +238,12 @@ function Main(){
                     src="./images/arrow.png"
                     alt="Arrow icon"
                     className="icon arrow"
-                    onClick={()=>window.location.href="#projects"}
+                    onClick={()=>window.location.href="#work"}
                 />
                 </section>
-                <section id="projects">
+                <section id="work">
                 <p className="section-text-p1">Browse My Recent</p>
-                <h1 className="title">Projects</h1>
+                <h1 className="title">Work</h1>
                 <div className="experience-details-container">
                     <div className="about-containers">
                     <div className="details-container color-container">
@@ -273,24 +273,18 @@ function Main(){
                     <div className="details-container color-container">
                         <div className="article-container">
                         <img
-                            src="./images/reservation.png"
+                            src="./images/weeklyEmail1.png"
                             alt="Reservation Reservation"
                             className="project-img"
                         />
                         </div>
-                        <h2 className="experience-sub-title project-title">Restaurant Reservation</h2>
+                        <h2 className="experience-sub-title project-title">Salud y Sabor Email Campaign</h2>
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href = "https://github.com/R-Vega9/starter-restaurant-reservation"}
+                            onClick={()=>window.location.href = "https://github.com/R-Vega9/weeklyEmail-3-25-24"}
                         >
                             Github
-                        </button>
-                        <button
-                            className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href = "https://restaurant-reservation-frontend-yk45.onrender.com"}
-                        >
-                            Live Demo
                         </button>
                         </div>
                     </div>
@@ -349,7 +343,7 @@ function Main(){
                         <ul className="nav-links">
                             <li><a href="#about">About</a></li>
                             <li><a href="#experience">Experience</a></li>
-                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#work">Work</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                         </div>
