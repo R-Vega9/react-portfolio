@@ -352,6 +352,7 @@ article .icon {
   position: relative;
 }
 
+
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
@@ -359,8 +360,10 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%; 
+  height: auto; 
+  max-height: 500px; 
+  max-width: 400px;
 }
 
 .project-title {

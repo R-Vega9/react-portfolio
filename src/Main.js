@@ -249,24 +249,18 @@ function Main(){
                     <div className="details-container color-container">
                         <div className="article-container">
                         <img
-                            src="./images/todoApp.png"
-                            alt="To Do App"
+                            src="./images/akw-email.png"
+                            alt="Alamance Kaffee Werks Email Campaign"
                             className="project-img"
                         />
                         </div>
-                        <h2 className="experience-sub-title project-title">To Do Application</h2>
+                        <h2 className="experience-sub-title project-title">Alamance Kaffee Werks Email Campaign</h2>
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href="https://github.com/R-Vega9/todo-app"}
+                            onClick={()=>window.open ("https://github.com/R-Vega9/akw-email-6-24", "_blank")}
                         >
                             Github
-                        </button>
-                        <button
-                            className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href="https://todo-app-frontend-ehdq.onrender.com/"}
-                        >
-                            Live Demo
                         </button>
                         </div>
                     </div>
@@ -282,7 +276,7 @@ function Main(){
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href = "https://github.com/R-Vega9/weeklyEmail-3-25-24"}
+                            onClick={() => window.open("https://github.com/R-Vega9/weeklyEmail-3-25-24", "_blank")}
                         >
                             Github
                         </button>
@@ -300,7 +294,7 @@ function Main(){
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={()=>window.location.href = "https://github.com/R-Vega9/workout-tracker-frontend"}
+                            onClick={()=>window.open("https://github.com/R-Vega9/workout-tracker-frontend", "_blank")}
                         >
                             Github
                         </button>
