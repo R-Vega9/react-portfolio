@@ -43,7 +43,7 @@ function Main(){
                 <div className="section-text">
                     <p className="section-text-p1">Hello, I'm</p>
                     <h1 className="title">Ramon Vega</h1>
-                    <p className="section-text-p2">Full Stack Software Engineer</p>
+                    <p className="section-text-p2">Full Stack Web Developer</p>
                     <div className="btn-container">
                     <button
                         className="btn btn-color-2"
@@ -285,18 +285,18 @@ function Main(){
                     <div className="details-container color-container">
                         <div className="article-container">
                         <img
-                            src="./images/workout-tracker.png"
-                            alt="Powerhouse Fitness Workout Tracker"
+                            src="./images/jacqueline-site.png"
+                            alt="Jacqueline Wordpress Site"
                             className="project-img"
                         />
                         </div>
-                        <h2 className="experience-sub-title project-title">Powerhouse Fitness Workout Tracker</h2>
+                        <h2 className="experience-sub-title project-title">Author Jacqueline's Wesbite</h2>
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={()=>window.open("https://github.com/R-Vega9/workout-tracker-frontend", "_blank")}
+                            onClick={()=>window.open("https://jacquelinevanhoewyk.com/", "_blank")}
                         >
-                            Github
+                            Live
                         </button>
                         </div>
                     </div>
